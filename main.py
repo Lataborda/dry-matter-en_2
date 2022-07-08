@@ -11,7 +11,7 @@ st.image(image)
 st.write("""
 # Tool for measuring the dry matter of fresh cassava roots  
 
-This tool allows the calculation of the percentage of dry matter in cassava. For this, it is necessary to record the exact weight of a sample of cassava (approximately 5 kg), and the weight of this same sample submerged in water. An example of the procedure can be seen in the following video:
+This tool calculates the percentage of dry matter in fresh cassava roots. To do this, it is necessary to record the exact weight of a sample of cassava roots (approximately 5 kg), then the weight of this same sample submerged in water. The following video illlustrates the procedure:
 """)
 
 
