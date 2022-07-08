@@ -11,7 +11,7 @@ st.image(image)
 st.write("""
 # Tool for measuring the dry matter of fresh cassava roots  
 
-This tool calculates the percentage of dry matter in fresh cassava roots. To do this, it is necessary to record the exact weight of a sample of cassava roots (approximately 5 kg), then the weight of this same sample submerged in water. The following video illlustrates the procedure:
+This tool calculates the percentage of dry matter in fresh cassava roots, based on measurement of their density. To do this, it is necessary to record the exact weight of a sample of cassava roots in air (approximately 5 kg), then the weight of this same sample submerged in water. The following video illlustrates the procedure:
 """)
 
 
@@ -44,7 +44,7 @@ RG = int(PS) / int(GEd)
 
 MS1 = 158.26 * float(RG) - 142.05
 
-st.write('* **Using the CIAT 1976 equation (Kawano et al. 1987), the percentage of dry matter for this sample is:**')
+st.write('* **According to the equation from CIAT 1976 (Kawano et al. 1987), the percentage of dry matter for this sample is:**')
 st.subheader(round(MS1,1))
 
 if float(MS1)<27:
@@ -66,11 +66,11 @@ st.subheader(round(Alm,1))
 #Porcentaje de almidón recuperable
 AlmRe= float(MS1)*0.64
 
-st.write('* *Only part of the starch contained in cassava is extractable. According to Hansupalak et al. (2016), recoverable starch represents 64% of the dry matter. Therefore the percentage of recoverable starch (at 13% moisture) of this sample could be around:*')
+st.write('* *For industrial use, only part of the starch contained in cassava roots is extractable. According to Hansupalak et al. (2016), recoverable starch represents 64% of the dry matter. Therefore the percentage of recoverable starch (at 13% moisture) of this sample would be around:*')
 st.subheader(round(AlmRe,1))
 
 
-st.write('**NOTE**: The values calculated on this page with the CIAT 1976 equation (Kawano et al. 1987; Keating et al. 1981) are indicative. For more precise values, other methods such as oven drying (105°C for 24 hours) for dry matter, and enzymatic starch determination (Holm et al. 1986) for starch are recommended. This tool is made available without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability or fitness for a particular purpose; nor without warranty as to, but not limited to, any damages, loss of data, loss of profits, liability and/or injury caused by the use of this tool.')
+st.write('**NOTE**: The values calculated on this page with the CIAT 1976 equation (Kawano et al. 1987; Keating et al. 1981) are indicative. For more precise values, other methods are recommended, such as oven drying (105°C for 24 hours) for dry matter content, and enzymatic starch determination (Holm et al. 1986) for starch content. This tool is made available without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability or fitness for a particular purpose; nor without warranty as to, but not limited to, any damages, loss of data, loss of profits, liability and/or injury caused by the use of this tool.')
 
 st.write('**References:**')
 st.write('-Hansupalak N., Piromkraipak P., Tamthirat P., Manitsorasak A., Sriroth K., Tran T. (2016). Biogas reduces the carbon footprint of cassava starch: A comparative assessment with fuel oil. Journal of Cleaner Production 134 part B, 539-546.') 
