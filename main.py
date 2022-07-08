@@ -26,7 +26,7 @@ st.video('DrymatterEn.mp4')
 
 st.subheader('Please input the weights:')
 
-PS = st.number_input('Weight of cassava in the air (g)', 5000,6000)
+PS = st.number_input('Weight of cassava in the air (g)', 4500,6000)
 PA = st.number_input('Weight of cassava submerged in water (g)', 200,800)
 
 #Inicio de ecuación
