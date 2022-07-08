@@ -79,4 +79,4 @@ st.write('-Kawano K., Goncalves Fukuda W.M., Cenpukdee U. (1987). Genetic and en
 st.write('-Keating B.A., Breen A.R., Evenson J.P. (1981). Estimation of Starch and Total Fermentables Content in Storage Roots of Cassava (Manihot esculenta Crantz. Journal of the Science of Food and Agriculture 32, 997-1004.')
 	 
 st.markdown('*Copyright (C) 2022 CIRAD & CIAT*')
-st.markdown('**Authores: Luis Alejandro Taborda Andrade (latabordaa@unal.edu.co), Katia Contreras (kcontreras@agrosavia.co), Thierry Tran (thierry.tran@cirad.fr)**')
+st.markdown('**Authors: Luis Alejandro Taborda Andrade (latabordaa@unal.edu.co), Katia Contreras (kcontreras@agrosavia.co), Thierry Tran (thierry.tran@cirad.fr)**')
