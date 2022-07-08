@@ -70,7 +70,7 @@ st.write('* *For industrial use, only part of the starch contained in cassava ro
 st.subheader(round(AlmRe,1))
 
 
-st.write('**NOTE**: The values calculated on this page with the CIAT 1976 equation (Kawano et al. 1987; Keating et al. 1981) are indicative. For more precise values, other methods are recommended, such as oven drying (105°C for 24 hours) for dry matter content, and enzymatic starch determination (Holm et al. 1986) for starch content. This tool is made available without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability or fitness for a particular purpose; nor without warranty as to, but not limited to, any damages, loss of data, loss of profits, liability and/or injury caused by the use of this tool.')
+st.write('**NOTE**: The values calculated on this page with the CIAT 1976 equation (Kawano et al. 1987; Keating et al. 1981) are indicative. For more precise values, other methods are recommended, such as oven drying (105°C for 24 hours) for dry matter content, and enzymatic starch determination (Holm et al. 1986) for starch content. This tool is made available without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability or fitness for a particular purpose. No warranties are made either regarding any damages, loss of data, loss of profits, liabilities and/or injuries caused by the use of this tool.')
 
 st.write('**References:**')
 st.write('-Hansupalak N., Piromkraipak P., Tamthirat P., Manitsorasak A., Sriroth K., Tran T. (2016). Biogas reduces the carbon footprint of cassava starch: A comparative assessment with fuel oil. Journal of Cleaner Production 134 part B, 539-546.') 
