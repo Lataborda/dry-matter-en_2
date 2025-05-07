@@ -9,9 +9,9 @@ st.image(image)
 
 #Titulo
 st.write("""
-# Tool for measuring the dry matter of fresh cassava roots  
+# Tool for measuring the dry matter and starch content of fresh cassava roots  
 
-This tool calculates the percentage of dry matter in fresh cassava roots, based on measurement of their density. To do this, it is necessary to record the exact weight of a sample of cassava roots in air (approximately 5 kg), then the weight of this same sample submerged in water. The following video illlustrates the procedure:
+This tool calculates the percentage of dry matter and starch content in fresh cassava roots, based on measurement of their density. To do this, it is necessary to record the exact weight of a sample of cassava roots in air (approximately 5 kg), then the weight of this same sample submerged in water. The following video illlustrates the procedure:
 """)
 
 
