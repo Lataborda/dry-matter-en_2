@@ -45,7 +45,8 @@ RG = int(PS) / int(GEd)
 MS1 = 158.26 * float(RG) - 142.05
 
 st.write('* **According to the equation from CIAT 1976 (Kawano et al. 1987), the percentage of dry matter for this sample is:**')
-st.subheader(round(MS1,1))
+#st.subheader(round(MS1,1))
+st.subheader(f"Dry matter content: {round(MS1)}%")
 
 if float(MS1)<27:
 	st.error('**Percentage of dry matter is low**')
@@ -61,13 +62,15 @@ elif float(MS1)>= 32:
 Alm= float(MS1)*0.875
 
 st.write('* *Starch in cassava usually represents between 80 and 90% of the dry matter, with an average of 87.5%. Therefore the approximate percentage of (pure) starch in this sample would be around:*')
-st.subheader(round(Alm,1))
+#st.subheader(round(Alm,1))
+st.subheader(f"Percentage of starch: {round(Alm)}%")
 
 #Porcentaje de almidón recuperable
 AlmRe= float(MS1)*0.64
 
 st.write('* *For industrial use, only part of the starch contained in cassava roots is extractable. According to Hansupalak et al. (2016), recoverable starch represents 64% of the dry matter. Therefore the percentage of recoverable starch (at 13% moisture) of this sample would be around:*')
-st.subheader(round(AlmRe,1))
+#st.subheader(round(AlmRe,1))
+st.subheader(f"Percentage of extractable starch: {round(AlmRe,1)}%")
 
 
 st.write('**NOTE**: The values calculated on this page with the CIAT 1976 equation (Kawano et al. 1987; Keating et al. 1981) are indicative. For more precise values, other methods are recommended, such as oven drying (105°C for 24 hours) for dry matter content, and enzymatic starch determination (Holm et al. 1986) for starch content. This tool is made available without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability or fitness for a particular purpose. No warranties are made either regarding any damages, loss of data, loss of profits, liabilities and/or injuries caused by the use of this tool.')
